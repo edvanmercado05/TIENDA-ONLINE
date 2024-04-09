@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 200px; /* Altura máxima deseada */
+}
+
+/* Personalización de colores y fuentes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff; /* Color azul de Bootstrap */
+}
+
+/* Utilizar variables CSS de Bootstrap */
+:root {
+    --primary-color: #007bff; /* Color azul de Bootstrap */
+}
+
+/* Estilos personalizados para la notificación */
+.alert-success {
+    background-color: #28a745; /* Color verde de Bootstrap */
+    color: #fff;
+    border-color: #28a745;
+}
